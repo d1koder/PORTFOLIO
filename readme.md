@@ -1,6 +1,6 @@
-# T1A3 - Portfolio 
+# T1A3 - PORTFOLIO
 
-### Links
+## Links
 
 Portfolio Webpage
 
@@ -25,11 +25,23 @@ Lots of white space will be selectivley used to acheive this desired amount of m
 
 Other features will include a search bar, in case the user would like to search for anything specific, and a contact box where users can submit their inquiries. Links to relevent socials will also be included within the footer. 
 
+## 2.1 Wireframes
+
+### 2.1.2 Mobile
+
+![Mobile](/Users/dk/Documents/flex_track/T1A3/docs/Mobile.png)
+
+### 2.1.3 Desktop
+
+![Desktop](/Users/dk/Documents/flex_track/T1A3/docs/Desktop.png)
+
+### 2.1.4 Tablet 
+
+![Tablet](/Users/dk/Documents/flex_track/T1A3/docs/Tablet.png)
+
 ## 3.0 	Sitemap
 
 Below is sitemap first conducted by a hand sketch, with the final changes shown afterwards. The only change being, an extra link would be included in the 'Contact' page to direct user/s to resume PDF.
-
-<img src="docs/Sitemap.pdf" style="zoom:100%;" />
 
 
 
@@ -38,8 +50,6 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 
 
 <img src="docs/Sitemap.PNG" style="zoom:100%;" />
-
-
 
 ## 4.0	Screenshots
 
@@ -50,8 +60,6 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 The target audience for this portfolio website will be prospective employers (for me, tech start-ups) searching to engage a dev of any kind (front end, back end, or full stack) and/or an IT proffesional. The audience can also be expanded towards small to medium sized business owners that are looking to create or improve their digital standpoint. 
 
 Employers will generally be expected to possess certain technical knowledge relating to Information Technology such as, software development, coding, programming languages and development stacks. Along with outstanding professionalism, collaboration and positive work ethic.
-
-
 
 ## 6.0	Tech Stack
 
