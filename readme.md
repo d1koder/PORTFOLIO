@@ -29,7 +29,7 @@ Other features will include a search bar, in case the user would like to search 
 
 Below is sitemap first conducted by a hand sketch, with the final changes shown afterwards. The only change being, an extra link would be included in the 'Contact' page to direct user/s to resume PDF.
 
-<img src="docs/sitemap-hand.jpg" style="zoom:15%;" />
+<img src="docs/sitemap1.JPG" style="zoom:15%;" />
 
 
 
