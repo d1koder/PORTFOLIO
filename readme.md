@@ -37,7 +37,7 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 
 
 
-<img src="docs/Sitemap.PNG" style="zoom:100%;" /><img src="docs/sitemap.png" style="zoom:15%;" />
+<img src="docs/Sitemap.PNG" style="zoom:100%;" />
 
 
 
