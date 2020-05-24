@@ -8,13 +8,13 @@ Portfolio Webpage
 
 ## 1.0	Purpose
 
-The purpose for this assignment is to develop a website with correct use of HTML and XHTML. It should follow a detailed design brief. 
+The purpose for this assignment is to develop a website with correct use of HTML and XHTML. It will ensue a detailed design brief. 
 
-This will be acheived by designing and creating a website, which will basically be a portfolio of me (Daniel Kim). The portfolio will be targeted towards prospective employers, and contain information about my skills, interests, proffesional knowledge, and a showcase of past and current work. 
+This will be acheived by designing and creating a website, which will basically be a portfolio of me (Daniel Kim). The aim is to build an online portfolio that'll be used to target prospective employers, with information about my skills, interests, profesional knowledge, and a showcase of past and current work. 
 
 ## 2.0	Functionality/Features
 
-As for the UX/UI, the portfolio website will take a minimalist approach, so as to direct the users focus less on "the novelties" and more on why they're here (my portfolio website). Website will incorporate SRI and responisve design in order to work on mobile and tablet devices. 
+As for the UX/UI, the portfolio website will take on a minimalist approach, so as to not distract the user on the "novelties" but to divert their attention as to why they're here, which is to convince them, that I intrinsically possess whatever they're looking for. Website will incorporate SRI and responisve design in order to work fluidly across mobile and tablet devices. 
 
 Lots of white space will be selectivley used to acheive this desired amount of minimalism, with the addition of high resolution images strategically placed in the background's and cover photo areas. In addition, a navigation bar feature will be included with the headings:
 
@@ -26,6 +26,8 @@ Lots of white space will be selectivley used to acheive this desired amount of m
 Other features will include a search bar, in case the user would like to search for anything specific, and a contact box where users can submit their inquiries. Links to relevent socials will also be included within the footer. 
 
 ## 2.1 Wireframes
+
+Wireframes were built using Balsamiq software. 
 
 ### 2.1.2 Mobile
 
