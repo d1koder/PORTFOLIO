@@ -29,15 +29,15 @@ Other features will include a search bar, in case the user would like to search 
 
 ### 2.1.2 Mobile
 
-![Mobile](/Users/dk/Documents/flex_track/T1A3/docs/Mobile.png)
+<img src="docs/mobile.png" style="zoom:50%;" />
 
 ### 2.1.3 Desktop
 
-![Desktop](/Users/dk/Documents/flex_track/T1A3/docs/Desktop.png)
+<img src="docs/desktop.png" style="zoom:50%;" />
 
 ### 2.1.4 Tablet 
 
-![Tablet](/Users/dk/Documents/flex_track/T1A3/docs/Tablet.png)
+<img src="docs/tablet.png" style="zoom:50%;" />
 
 ## 3.0 	Sitemap
 
@@ -49,7 +49,9 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 
 
 
-<img src="docs/Sitemap.PNG" style="zoom:100%;" />
+<img src="docs/sitemap.png" style="zoom:100%;" />
+
+
 
 ## 4.0	Screenshots
 
