@@ -29,7 +29,7 @@ Other features will include a search bar, in case the user would like to search 
 
 ### 2.1.2 Mobile
 
-<img src="docs/mobile.png" style="zoom:50%;" />
+<img src="docs/Mobile.png" style="zoom:50%;" />
 
 ### 2.1.3 Desktop
 
@@ -37,7 +37,7 @@ Other features will include a search bar, in case the user would like to search 
 
 ### 2.1.4 Tablet 
 
-<img src="docs/tablet.png" style="zoom:50%;" />
+<img src="docs/Tablet.png" style="zoom:50%;" />
 
 ## 3.0 	Sitemap
 
@@ -49,7 +49,7 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 
 
 
-<img src="docs/sitemap.png" style="zoom:100%;" />
+<img src="docs/Sitemap.png" style="zoom:100%;" />
 
 
 
