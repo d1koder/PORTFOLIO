@@ -63,7 +63,7 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 
 
 
-<img src="/Users/dk/Documents/flex_track/T1A3/docs/home.png" style="zoom:50%;" />
+<img src="docs/home.png" style="zoom:50%;" />
 
 <img src="docs/about.png" style="zoom:50%;" />
 
