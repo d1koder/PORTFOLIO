@@ -2,7 +2,7 @@
 
 ## Links
 
-Portfolio Webpage
+[Live Portfolio!](https://daniel-kim-portfolio.netlify.app/)
 
 [GitHub](https://github.com/d1koder/PORTFOLIO)
 
@@ -58,6 +58,16 @@ Below is sitemap first conducted by a hand sketch, with the final changes shown 
 ## 4.0	Screenshots
 
 
+
+<img src="docs/navbar.png" style="zoom:50%;" />
+
+
+
+<img src="/Users/dk/Documents/flex_track/T1A3/docs/home.png" style="zoom:50%;" />
+
+<img src="docs/about.png" style="zoom:50%;" />
+
+<img src="docs/mobilecontact.png" style="zoom:50%;" />
 
 ## 5.0 	Target audience
 
