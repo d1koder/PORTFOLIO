@@ -66,7 +66,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(5.7em);
+    transform: translateX(2em);
   }
 }
 
@@ -124,6 +124,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-weight: 400;;
+  text-decoration-color: black;
 
 }
 
@@ -136,6 +137,7 @@ footer > a {
   color: #080808;
   margin: 0 1em;
   text-decoration-line: underline;
+  text-decoration-color: #080808;
   
 }
 
@@ -144,7 +146,7 @@ footer > a:hover {
   color: #080808;
 }
 
-/* Title on home page */
+/* home page */
 .wrap h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
@@ -182,7 +184,7 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-/* content for work and skill pages */
+
 .display {
   display: flex;
   flex-wrap: wrap;
@@ -268,7 +270,6 @@ nav a:hover {
   padding: 0 1em;
 }
 
-/* colours for skill text */
 .purple {
   color: #da34da;
 }
