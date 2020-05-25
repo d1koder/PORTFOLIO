@@ -1,11 +1,459 @@
-h1 {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+
+/* animations for home page title */
+@keyframes flicker_light {
+  0% {
+    text-shadow: 0 0 5px black, 0 0 15px white, 0 0 25px white, 0 0 40px white;
+    visibility: visible;
+  }
+  2%,
+  8% {
+    opacity: 0;
+  }
+  10% {
+    text-shadow: 0 0 5px black, 0 0 15px white, 0 0 25px white, 0 0 40px white;
+    opacity: 1;
+  }
+  12%,
+  36% {
+    opacity: 0;
+  }
+  40% {
+    text-shadow: 0 0 5px black, 0 0 15px white, 0 0 25px white, 0 0 40px white;
+    opacity: 1;
+  }
+  44%,
+  90% {
+    opacity: 0;
+  }
+  100% {
+    text-shadow: 0 0 5px black, 0 0 15px white, 0 0 25px white, 0 0 40px white;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes flicker_shadow {
+  0% {
+    text-shadow: 4px -2px 3px grey;
+  }
+  2%,
+  8% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 4px -2px 3px grey;
+  }
+  12%,
+  36% {
+    text-shadow: none;
+  }
+  40% {
+    text-shadow: 4px -2px 3px grey;
+  }
+  44%,
+  90% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 4px -2px 3px grey;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(5.7em);
+  }
+}
+
+@keyframes slide_shadow {
+  0% {
+    text-shadow: 4px -2px 3px grey;
+  }
+  50% {
+    text-shadow: 0 -4px 3px grey;
+  }
+  100% {
+    text-shadow: -4px -2px 3px grey;
+  }
+}
+
+#container {
+  display: grid;
+  grid-template: 1fr 15fr 1fr / 1fr;
+  height: 100vh;
+  max-width: 1280px;
+  margin: auto;
+  background-image: linear-gradient( white);
 }
 
 body {
-  padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
-/*# sourceMappingURL=style.css.map */
+
+nav {
+  display: flex;
+  background-color: #181818;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  background-color: #f8f8f8;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;;
+
+}
+
+footer div {
+  margin: 0.5em;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #080808;
+  margin: 0 1em;
+  text-decoration-line: underline;
+  
+}
+
+footer > a:hover {
+  transform: scale(1.1);
+  color: #080808;
+}
+
+/* Title on home page */
+.wrap h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 4em;
+  margin: 0;
+  animation: flicker_shadow 4s 2s forwards, slide_shadow 3s linear 7s forwards;
+}
+
+.wrap h2 {
+  margin: 0;
+  font-weight: 600;
+  visibility: hidden;
+  text-shadow: 0 0 5px black, 0 0 15px white, 0 0 25px white, 0 0 40px white;
+  color: white;
+  animation: flicker_light 4s 2s forwards, slide 3s linear 7s forwards;
+}
+
+/* footer contacts */
+#contacts img {
+  height: 2em;
+  margin: 0 0.3em;
+}
+
+#contacts {
+  display: flex;
+  align-items: center;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #0e0d0d;
+}
+
+#contacts a:hover {
+  transform: scale(1.1);
+}
+
+/* content for work and skill pages */
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.display h2 {
+  width: 90%;
+  margin: 1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  text-align: center;
+  background: #f6e81db6 url(images/steel.jpg);
+  background-blend-mode: hard-light;
+  border-radius: 2%;
+  color: #575252;
+  box-shadow: 2px 2px 7px grey;
+}
+
+.top {
+  order: -1;
+}
+
+.bottom {
+  order: 2;
+}
+
+.top_div {
+  order: 1;
+}
+
+.bottom_div {
+  order: 4;
+}
+
+.display img {
+  height: 8em;
+  width: 8em;
+  object-fit: contain;
+}
+
+.display div p {
+  margin: 0 1em;
+  display: none;
+}
+
+.display div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+}
+
+.display div:focus p {
+  display: block;
+  width: 60%;
+}
+
+.display div:focus {
+  width: 100%;
+}
+
+.top_div:focus {
+  order: 0;
+}
+
+.bottom_div:focus {
+  order: 3;
+}
+
+.display div:hover {
+  cursor: pointer;
+}
+
+.skill p {
+  background: #181818;
+  color: white;
+  font-family: consolas;
+  padding: 0 1em;
+}
+
+/* colours for skill text */
+.purple {
+  color: #da34da;
+}
+
+.yellow {
+  color: #e2e27b;
+}
+
+.blue {
+  color: #8383fa;
+}
+
+.orange {
+  color: #b4801e;
+}
+
+.lightblue {
+  color: lightblue;
+}
+
+.green {
+  color: #86df00;
+}
+
+/* blog content */
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  overflow: auto;
+}
+
+.blog ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 2em 0 0 0;
+  background: #f6e81db6 url(images/steel.jpg);
+  background-blend-mode: hard-light;
+  background-size: cover;
+  box-shadow: 2px 2px 7px grey;
+  border-radius: 2%;
+}
+
+.blog ul li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog ul li img {
+  object-fit: cover;
+}
+
+.blog ul li span {
+  width: 100%;
+  text-align: center;
+  margin: 0.25em;
+  font-weight: 400;
+  color: #575252;
+}
+
+.blog ul li img {
+  display: none;
+  width: 50%;
+}
+
+.blog ul li:focus img,
+.blog ul li:focus p {
+  display: block;
+}
+
+.blog ul li p {
+  background: url(images/paper.png);
+  background-size: cover;
+  padding-left: 8%;
+  padding-top: 3%;
+  display: none;
+  width: 42%;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 1.75em;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.blog ul li:hover {
+  cursor: pointer;
+}
+
+.blog ul li:focus span {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/* mobile media query */
+@media screen and (max-width: 600px) {
+  #copy {
+    display: none;
+  }
+
+  .display div {
+    flex-direction: column;
+    margin: 0.3em;
+  }
+
+  .top_div:focus {
+    order: 1;
+  }
+
+  .bottom_div:focus {
+    order: 4;
+  }
+
+  .display div:focus p {
+    width: 90%;
+  }
+
+  .display h2,
+  .blog h2 {
+    margin: 0.1em;
+    font-size: 2.5em;
+  }
+
+  nav a {
+    margin: 0.3em;
+  }
+
+  footer > a {
+    margin: 0 0.75em;
+  }
+
+  #contacts img {
+    height: 1.5em;
+  }
+
+  footer div {
+    margin: 0.3em;
+  }
+
+  .blog {
+    width: 90%;
+  }
+
+  .blog ul li img,
+  .blog ul li p {
+    width: 100%;
+  }
+
+  .blog ul {
+    margin: 1em 0 0 0;
+  }
+  .blog ul li p {
+    padding-left: 15%;
+  }
+  .skill p {
+    font-size: 0.75em;
+  }
+}
+
+/* tablet media query */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .display h2 {
+    margin: 0.5em;
+  }
+
+  .footer > a {
+    margin: 0;
+  }
+
+  .blog {
+    width: 90%;
+  }
+
+  .blog ul li p {
+    padding-left: 12%;
+    width: 38%;
+  }
+}
